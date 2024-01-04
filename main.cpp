@@ -18,7 +18,7 @@ const TGAColor red = TGAColor(255, 0, 0, 255);//红色
             std::swap(x1, y1);
             steep = true;
         }
-        if (x0 > x1) {
+        if (x0 > x1) {      
             std::swap(x0, x1);
             std::swap(y0, y1);
         }
